@@ -1,0 +1,26 @@
+{
+  "name": "proof-of-concept",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.21"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.42.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer": "^22.3.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
